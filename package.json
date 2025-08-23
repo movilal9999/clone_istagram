@@ -8,6 +8,108 @@
     "dev": "nodemon backend/index.js",
     "build": "npm install && npm install --prefix frontend && npm run build --prefix frontend",
     "start": "node backend/index.js"
+
+hp@DESKTOP-HRGBE0E MINGW64 ~/Desktop/InstaGram_ (master)
+$ git commit -m "from starting updated"
+[master (root-commit) b9e7781] from starting updated
+ 75 files changed, 13724 insertions(+)
+ create mode 100644 .gitignore
+ create mode 100644 backend/controllers/message.controller.js
+ create mode 100644 backend/controllers/post.controller.js
+ create mode 100644 backend/controllers/user.controller.js
+ create mode 100644 backend/index.js
+ create mode 100644 backend/middleware/isAuthenticated.js
+ create mode 100644 backend/middleware/multer.js
+ create mode 100644 backend/models/comment.model.js
+ create mode 100644 backend/models/conversation.model.js
+ create mode 100644 backend/models/message.model.js
+ create mode 100644 backend/models/post.model.js
+ create mode 100644 backend/models/user.models.js
+ create mode 100644 backend/routes/message.route.js
+ create mode 100644 backend/routes/post.route.js
+ create mode 100644 backend/routes/user.route.js
+ create mode 100644 backend/socket/socket.js
+ create mode 100644 backend/utils/cloudinary.js
+ create mode 100644 backend/utils/datauri.js
+ create mode 100644 backend/utils/db.js
+ create mode 100644 frontend/.gitignore
+ create mode 100644 frontend/README.md
+ create mode 100644 frontend/components.json
+ create mode 100644 frontend/eslint.config.js
+ create mode 100644 frontend/index.html
+ create mode 100644 frontend/jsconfig.json
+ create mode 100644 frontend/package-lock.json
+ create mode 100644 frontend/public/vite.svg
+ create mode 100644 frontend/src/App.css
+ create mode 100644 frontend/src/App.jsx
+ create mode 100644 frontend/src/assets/react.svg
+ create mode 100644 frontend/src/components/ChatsPages.jsx
+ create mode 100644 frontend/src/components/Comment.jsx
+ create mode 100644 frontend/src/components/CommentDialog.jsx
+ create mode 100644 frontend/src/components/CreatePosts.jsx
+ create mode 100644 frontend/src/components/EditProfile.jsx
+ create mode 100644 frontend/src/components/Feed.jsx
+ create mode 100644 frontend/src/components/Home.jsx
+ create mode 100644 frontend/src/components/LeftSidebar.jsx
+ create mode 100644 frontend/src/components/Login.jsx
+ create mode 100644 frontend/src/components/MainLayout.jsx
+ create mode 100644 frontend/src/components/MessagesHere.jsx
+ create mode 100644 frontend/src/components/Post.jsx
+ create mode 100644 frontend/src/components/Posts.jsx
+ create mode 100644 frontend/src/components/Profile.jsx
+ create mode 100644 frontend/src/components/ProtectedRoutes.jsx
+ create mode 100644 frontend/src/components/RightSidebar.jsx
+ create mode 100644 frontend/src/components/SignUp.jsx
+ create mode 100644 frontend/src/components/SuggestedUsers.jsx
+ create mode 100644 frontend/src/components/ui/avatar.jsx
+ create mode 100644 frontend/src/components/ui/badge.jsx
+ create mode 100644 frontend/src/components/ui/button.jsx
+ create mode 100644 frontend/src/components/ui/dialog.jsx
+ create mode 100644 frontend/src/components/ui/input.jsx
+ create mode 100644 frontend/src/components/ui/label.jsx
+ create mode 100644 frontend/src/components/ui/popover.jsx
+ create mode 100644 frontend/src/components/ui/select.jsx
+ create mode 100644 frontend/src/components/ui/sonner.jsx
+ create mode 100644 frontend/src/components/ui/textarea.jsx
+ create mode 100644 frontend/src/hooks/useGETUserProfileHere.jsx
+ create mode 100644 frontend/src/hooks/useGetAllPost.jsx
+ create mode 100644 frontend/src/hooks/useGetRLM.jsx
+ create mode 100644 frontend/src/hooks/useGetSuggestedUsersUpdate.jsx
+ create mode 100644 frontend/src/hooks/userGetAllMessage.jsx
+ create mode 100644 frontend/src/index.css
+ create mode 100644 frontend/src/lib/utils.js
+ create mode 100644 frontend/src/main.jsx
+ create mode 100644 frontend/src/redux/authSlice.js
+ create mode 100644 frontend/src/redux/chatSlice.js
+ create mode 100644 frontend/src/redux/postSlice.js
+ create mode 100644 frontend/src/redux/rtnSlice.js
+ create mode 100644 frontend/src/redux/socketSlice.js
+ create mode 100644 frontend/src/redux/store.js
+ create mode 100644 frontend/vite.config.js
+ create mode 100644 package-lock.json
+ create mode 100644 package.json
+
+hp@DESKTOP-HRGBE0E MINGW64 ~/Desktop/InstaGram_ (master)
+$ git remote add origin "git@github.com:movilal9999/clone_istagram.git"
+
+hp@DESKTOP-HRGBE0E MINGW64 ~/Desktop/InstaGram_ (master)
+$ git push -u origin master
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+hp@DESKTOP-HRGBE0E MINGW64 ~/Desktop/InstaGram_ (master)
+$ git push origin master
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+hp@DESKTOP-HRGBE0E MINGW64 ~/Desktop/InstaGram_ (master)
+
   },
   "keywords": [],
   "author": "",
